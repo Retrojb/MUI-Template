@@ -49,7 +49,7 @@ const Navbar = () => {
         <Box>
             <AppBar>
                 <Toolbar>
-                    <MenuItem>
+                    <MenuItem onClick={handleMenuOpen}>
                         <IconButton
                             size="large"
                             edge="start"
